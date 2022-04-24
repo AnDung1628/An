@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+}
+.Nav_menu{
+    height: 50px;
+    background-color: dimgrey;
+    margin: 2% 10%;
+    border-radius: 10px;
+}
+.menu li{
+    list-style: none;
+    display: inline-table;
+    line-height: 50px;
+    border-right: white 1px solid;
+}
+.menu li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.menu li:hover{
+    background-color: rgb(136, 143, 143);
+}
+.menu li:last-child{
+    border-right: none;
+}
+.menusp{
+    padding-left: 0;
+}
+.menusp li{
+    margin: 0;
+    display: none;
+    border-right: none ;
+    background-color:dimgray;
+}
+.menu .sanpham:hover .menusp li{
+    display: block;
+}
+img.logo{
+    float: left;
+    margin-left: 10%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.search{
+    margin-top: 5%;
+}
+.sanpham{
+    width: 200px;
+    text-align: center;
+}
+.nengiay{
+    margin-left: 8%;
+    width: 84%;
+    height: 650px;
+    background-image: url(tranggiay/Anhnen.jpg);
+}
+.giay{
+    margin-left: 50px;
+    margin-top: 5%;
+    float: left;
+    text-align: center;
+}
+.giay:hover img{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+.tieude{
+    margin-bottom: 48px;
+    width: 310px;
+    color: white;
+    background-color:rgba(0,0,0,0.5) ;
+    height: 30px;
+    padding-top: 1px ;
+    padding-bottom:15px ;
+    text-align: center;
+    font-size: 16px;
+    bottom: -120px;
+    position: absolute;
+    transition-duration: 1s;
+}
+.tieude p{
+    font-size: 18px;
+    padding-top: 15px;
+}
+.giay{
+    position: relative;
+    float: left;
+    overflow: hidden;
+}
+.giay:hover .tieude{
+    transform: translatey(-123px);
+}
+button{
+    margin-top: 7px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.mua:hover button{
+    background-color: red;
+}
+.giohang:hover button{
+    background-color: red;
+}

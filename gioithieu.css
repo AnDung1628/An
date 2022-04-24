@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+}
+.Nav_menu{
+    height: 50px;
+    background-color: dimgrey;
+    margin: 2% 10%;
+    border-radius: 10px;
+}
+.menu li{
+    list-style: none;
+    display: inline-table;
+    line-height: 50px;
+    border-right: white 1px solid;
+}
+.menu li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.menu li:hover{
+    background-color: rgb(136, 143, 143);
+}
+.menu li:last-child{
+    border-right: none;
+}
+.menusp{
+    padding-left: 0;
+}
+.menusp li{
+    margin: 0;
+    display: none;
+    border-right: none ;
+    background-color:dimgray;
+}
+.menu .sanpham:hover .menusp li{
+    display: block;
+}
+img.logo{
+    float: left;
+    margin-left: 10%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.search{
+    margin-top: 5%;
+}
+.sanpham{
+    width: 200px;
+    text-align: center;}
+.nengt{
+    margin-left: 8%;
+    width: 84%;
+    height: 450px;
+    background-image: url(gioithieu/nen.jpg);
+}
+button{
+    margin-top: 7px;
+    border-radius: 5px;
+    font-size: 18px;
+}
